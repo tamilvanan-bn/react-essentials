@@ -1,11 +1,9 @@
-import React from "react";
-
 export const ProductList = () => {
   const productList = [
-    { id: 1, name: "Laptop", price: 999 },
-    { id: 2, name: "Phone", price: 699 },
-    { id: 3, name: "Tablet", price: 499 },
-    { id: 4, name: "Watch", price: 299 },
+    { id: 1, name: 'Laptop', price: 999 },
+    { id: 2, name: 'Phone', price: 699 },
+    { id: 3, name: 'Tablet', price: 499 },
+    { id: 4, name: 'Watch', price: 299 },
   ];
 
   const productElement = productList
